@@ -1,20 +1,20 @@
 ## Computation
-**Host**
+1. **Host**
 - Bare Metal (Server with no OS)
   
-**VM**
+2. **VM**
 - Virtualization
    - Type 1 (Runs on bare metal)
    - Type 2 (Runs on OS)
      
-**Container**
+3. **Container**
 - Docker
 - LXC
   
-**Orchestrator**
+4. **Orchestrator**
 - K8S, Docker Swarm, Mesosm EKS, ECS
 
-**Computing Units**
+5. **Computing Units**
 - CPU (ALU), DPU, GPU, SOC, FPGA, ASICS
 - Silicon
    - Fab
@@ -23,19 +23,19 @@
 - Photonic
 
 ## Networking 
-**OSI Layers**
+1. **OSI Layers**
 
-**Load Balance**
+2. **Load Balance**
 - L7
 - L4
 
-**Proxy**
+3. **Proxy**
 
-**Reverse Proxy**
+4. **Reverse Proxy**
 
-**Network Address Translation**
+5. **Network Address Translation**
 
-**Routing**
+6. **Routing**
 - Route53
   - DNS
   - TCP & UDP
@@ -45,7 +45,37 @@
      - OVS
      - VPP (Vector Packet Processing)
        
-**Switch**
+7. **Switch**
 - OVS Switch
   
-**CNI**
+8. **CNI**
+    - Loopback plugin
+    - Bridge plugin
+    - PTP plugin
+    - MACvlan plugin
+    - IPvlan plugin
+    - 3rd party plugin
+10. **CNDP** (Replacing DPDK, SR-IOV)
+    - Accelerates Packet Processing
+12. **DPDK**
+13. **SR-IOV**
+
+## Storage
+1. **CEPH**
+   - provides object storage, block storage, and file storage
+   - 
+3. **RAID**
+   -  manage hard disk drives in a storage array
+   -  
+5. **Data Centre** (Racks, Servers, Switches)
+   - Hyperscaling
+   - HCI
+   - Private
+   - Public
+     - YOTTA
+6. **Block**
+   - controls data storage and storage devices
+    - EBS
+8. **Object**
+   -  handle large amounts of unstructured data
+    - S3
