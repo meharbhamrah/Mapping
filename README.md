@@ -84,3 +84,5 @@
 8. **Object**
    -  handle large amounts of unstructured data
     - S3
+  
+## Caching
