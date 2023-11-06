@@ -63,10 +63,10 @@
 ## Storage
 1. **CEPH**
    - provides object storage, block storage, and file storage
-   - 
+     
 3. **RAID**
    -  manage hard disk drives in a storage array
-   -  
+     
 5. **Data Centre** (Racks, Servers, Switches)
    - Hyperscaling
    - HCI
