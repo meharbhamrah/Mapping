@@ -24,18 +24,23 @@
 
 ## Networking 
 1. **OSI Layers**
+   - Physical, Data Link, Network, Transport, Session, Presentation, and Application
 
-2. **Load Balance**
-- L7
-- L4
+3. **Load Balancer**
+- Application Load Balancer
+- Network Load Balancer
+- Classic Load Balance(Rarely Used)
 
 3. **Proxy**
+   - gateway between users and the internet
 
-4. **Reverse Proxy**
+5. **Reverse Proxy**
+   - behind the firewall in a private network and directs client requests to the appropriate backend server 
 
-5. **Network Address Translation**
+7. **Network Address Translation**
+   - map multiple private addresses inside a local network to a public IP address
 
-6. **Routing**
+9. **Routing**
 - Route53
   - DNS
   - TCP & UDP
