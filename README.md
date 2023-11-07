@@ -174,6 +174,7 @@
  9. **Zero Trust Provisioning**
  10. **OKTA**
      - vendor-neutral software protocol used to lookup information or devices within a network
+ 11. **OpenID Connect**
     
 ## Architecture
 1. **High Availability**
