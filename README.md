@@ -127,6 +127,10 @@
 5. **Object**
    -  handle large amounts of unstructured data
     - S3
+6. **SAN**
+   -  network of storage devices that can be accessed by multiple servers
+7. **NAS**
+   - 
 
 ## Security
 1. **SSL Certificates**
@@ -142,18 +146,23 @@
      - no one is trusted by default from inside or outside the network
      - 5 Pillars
        -  Identity, Devices, Networks, Applications and Workloads, and Data
+  
  4. **Password Rotation**
     - Changing passwords regularly
  5. **Security Comliance**
  6. **Site to Site VPN**
-    - 
+    - a connection set up between multiple networks
+ 7. **Client to site VPN**
+    - connects a single device, such as a laptop or smartphone, to a remote network, such as a corporate or cloud network
+ 9. **Zero Trust Provisioning**
+    
 ## Architecture
 1. **High Availability**
    - **Distributed Systems (Clusters)**
       - multiple computers or devices are working on a variety of tasks and components, all spread across a network
    - **Failover Mechanism**
      - backup operational mode that automatically switches to a standby database, server or network if the primary system fails, or is shut down
-   - **Disaaster Recovery**
+   - **Disaster Recovery**
      - ability to restore access and functionality to IT infrastructure after a disaster event, whether natural or caused by human action (or error)
      - 4 Phases (Mitigation, Preparedness, Response, and Recovery)
    - **Vertical Scaling**
