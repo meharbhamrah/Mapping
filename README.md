@@ -112,22 +112,41 @@
 1. **CEPH**
    - provides object storage, block storage, and file storage
      
-3. **RAID**
+2. **RAID**
    -  manage hard disk drives in a storage array
      
-5. **Data Centre** (Racks, Servers, Switches)
+3. **Data Centre** (Racks, Servers, Switches)
    - Hyperscaling
    - HCI
    - Private
    - Public
      - YOTTA
-6. **Block**
+4. **Block**
    - controls data storage and storage devices
     - EBS
-8. **Object**
+5. **Object**
    -  handle large amounts of unstructured data
     - S3
-  
+
+## Security
+1. **SSL Certificates**
+2. **PKI Infrastructure(the set of hardware, software, policies, processes, and procedures required to create, manage, distribute, use, store, and revoke digital certificates and public-keys)**
+    - **Six Components**
+      - public key
+      - private key
+      - Certificate Authority
+      - Certificate Store
+      - Certificate Revocation List
+      - Hardware Security Module
+ 3. **Zero Trust Security**
+     - no one is trusted by default from inside or outside the network
+     - 5 Pillars
+       -  Identity, Devices, Networks, Applications and Workloads, and Data
+ 4. **Password Rotation**
+    - Changing passwords regularly
+ 5. **Security Comliance**
+ 6. **Site to Site VPN**
+    - 
 ## Architecture
 1. **High Availability**
    - **Distributed Systems (Clusters)**
