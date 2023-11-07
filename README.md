@@ -72,7 +72,9 @@
     -  represents an IP address and a suffix that indicates network identifier bits in a specified format. For example, you could express 192.168.1.0 with a 22-bit network identifier as 192.168.1.0/22
     -  Classes
        - Class A (IPv4 address has 8 network prefix bits)
-      - 
+       - Class B (IPv4 address has 16 network prefix bits)
+       - Class C (IPv4 address has 24 network prefix bits)
+         
 14. **Subnetting**
     - The practice of dividing a network into two or more networks
    
@@ -95,6 +97,17 @@
     - IPv4 is composed of 32-bit address length and is the fourth version of the Internet Protocol (IP)
 24. **IPV6 Protocol**
     - IPv6 is composed of 128-bit address length and is the latest updated version of the Internet Protocol (IP)
+26. **Load Balancing Algorithms**
+    - **Dynamic**
+      - Least connection
+      - Weighted least connection
+      - Weighted response time
+      - Resource-based
+    - **Static**
+      - Round robin
+      - Weighted round robin
+      - IP hash
+      
 ## Storage
 1. **CEPH**
    - provides object storage, block storage, and file storage
@@ -115,4 +128,16 @@
    -  handle large amounts of unstructured data
     - S3
   
-## Caching
+## Architecture
+1. **High Availability**
+   - **Distributed Systems (Clusters)**
+      - multiple computers or devices are working on a variety of tasks and components, all spread across a network
+   - **Failover Mechanism**
+     - backup operational mode that automatically switches to a standby database, server or network if the primary system fails, or is shut down
+   - **Disaaster Recovery**
+     - ability to restore access and functionality to IT infrastructure after a disaster event, whether natural or caused by human action (or error)
+     - 4 Phases (Mitigation, Preparedness, Response, and Recovery)
+   - **Vertical Scaling**
+      - process of increasing the power of an existing system, such as the CPU or RAM
+   - **Horizontal Scaling**
+      - increasing the capacity of a system by adding additional machines (nodes)
