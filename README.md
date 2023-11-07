@@ -26,7 +26,7 @@
 1. **OSI Layers**
    - Physical, Data Link, Network, Transport, Session, Presentation, and Application
 
-3. **Load Balancer**
+2. **Load Balancer**
 - Application Load Balancer
 - Network Load Balancer
 - Classic Load Balance(Rarely Used)
@@ -34,13 +34,13 @@
 3. **Proxy**
    - gateway between users and the internet
 
-5. **Reverse Proxy**
+4. **Reverse Proxy**
    - behind the firewall in a private network and directs client requests to the appropriate backend server 
 
-7. **Network Address Translation**
+5. **Network Address Translation**
    - map multiple private addresses inside a local network to a public IP address
 
-9. **Routing**
+6. **Routing**
 - Route53
   - DNS
   - TCP & UDP
@@ -60,11 +60,19 @@
     - MACvlan plugin
     - IPvlan plugin
     - 3rd party plugin
-10. **CNDP** (Replacing DPDK, SR-IOV)
+9. **CNDP** (Replacing DPDK, SR-IOV)
     - Accelerates Packet Processing
-12. **DPDK**
-13. **SR-IOV**
-
+10. **DPDK**
+11. **SR-IOV**
+12. **Network Topologies**
+    - physical and logical arrangement of nodes and connections in a network
+    - Point to Point, Bus, Ring, Star, Tree, Mesh, Hybrid
+      
+13. **CIDR Notation**
+    -  represents an IP address and a suffix that indicates network identifier bits in a specified format. For example, you could express 192.168.1.0 with a 22-bit network identifier as 192.168.1.0/22
+    -  
+14. **Subnetting**
+    - The practice of dividing a network into two or more networks 
 ## Storage
 1. **CEPH**
    - provides object storage, block storage, and file storage
