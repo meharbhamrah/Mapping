@@ -107,7 +107,10 @@
       - Round robin
       - Weighted round robin
       - IP hash
-      
+27. **Latencey**
+    - delay in network communication
+28. **LDAP**
+    - vendor-neutral software protocol used to lookup information or devices within a network
 ## Storage
 1. **CEPH**
    - provides object storage, block storage, and file storage
@@ -130,9 +133,23 @@
 6. **SAN**
    -  network of storage devices that can be accessed by multiple servers
 7. **NAS**
-   - 
+   -  Storage device or server that is connected to network
+8. **DAS**
+   - Storage device directly attached to single server or workstation
+9. **NFS**
+   - distributed file system protocol for shared storage
+10. **Disk IOPS**
+   - input/output performance measurement
+11. **Throughput**
+   - the amount of data moved successfully from one place to another in a given time period
+12. **Database**
+   - organized collection of structured information, or data, typically stored electronically in a computer system
+13. **Key-Value Store**
+   - used for use cases where applications will require values to be retrieved fast via keys, like maps or dictionaries in programming languages
+14. **Active Directory**
+   - database and set of services that connect users with the network resources they need to get their work done
 
-## Security
+## Security and Authentication
 1. **SSL Certificates**
 2. **PKI Infrastructure(the set of hardware, software, policies, processes, and procedures required to create, manage, distribute, use, store, and revoke digital certificates and public-keys)**
     - **Six Components**
@@ -155,6 +172,8 @@
  7. **Client to site VPN**
     - connects a single device, such as a laptop or smartphone, to a remote network, such as a corporate or cloud network
  9. **Zero Trust Provisioning**
+ 10. **OKTA**
+     - vendor-neutral software protocol used to lookup information or devices within a network
     
 ## Architecture
 1. **High Availability**
